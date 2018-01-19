@@ -1,0 +1,46 @@
+
+#CustomerList-div
+{	float:left;
+}
+
+input.form-control
+{
+	width : 30 %;
+	margin-top: 10px;
+
+}
+
+#Customer-Form
+
+{
+
+}
+
+li
+{
+        background: #fcf8e3;
+
+}
+    
+.container
+    {
+    	margin-top: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #ddd;
+            width: 50%;
+
+    }
+
+.btn-success
+{
+
+	    margin-left: 50%;
+    margin-top: 5px;
+
+}
+
+
+
+
+    

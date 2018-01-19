@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Customer Page</title>
+            <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="./style.css">
+
+    </head>
+    <body>
+        <h1>Hello Backbone <button id = "addnew">Add</button></h1>
+               <div id="CustomerList-div">
+                      <p>Customer List</p>
+                </div>
+        <div id="Customer-Form">
+                      
+          
+          </div>
+    </body>
+    <script type="text/html" id = "Customer-Form-template">
+       <div class="form-group">
+        
+              <form id="user" class="container form-horizontal">
+                     <label class="control-label col-xs-4">FirstName</label>
+                        <div class="col-xs-8">
+                            <input class="form-control" type="text" id="FirstName" value="<%= FirstName%>">
+                        </div>
+                     <label class="control-label col-xs-4">LastName</label>
+                        <div class="col-xs-8">
+                            <input class="form-control" type="text" id="LastName" value="<%= LastName%>">
+                        </div>
+                      <label class="control-label col-xs-4">Email</label>
+                         <div class="col-xs-8">
+                             <input class="form-control" type="text" id="Email" value="<%= Email%>">
+                          </div>
+                    <button class="btn btn-success"  id="add" type="button">Submit</button>
+                </form>
+             </div>
+    </script>
+    <script src="./libs/jquery-3.2.1.min.js"></script>
+    <script src="./libs/underscore-min.js"></script>
+    <script src="./libs/backbone-min.js"></script>    
+    <script src="./Models/Customer.js"></script>
+
+    <script src="./collection/CustomerList.js"></script>
+
+  <script src="./view/customerformview.js"></script>
+    <script src="./view/CustomerView.js"></script>
+    <script src="./view/CustomerListView.js"></script>
+    <script src="./main.js"></script>
+    
+
+</html>
